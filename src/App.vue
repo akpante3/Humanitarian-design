@@ -8,7 +8,6 @@
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
 import NavBar from '@/components/ui/NavBar.vue'
 
 export default {
