@@ -1,6 +1,6 @@
 <template>
     <div class="app-button">
-        {{ title }}
+      {{ title }}
     </div>
 </template>
 
@@ -23,13 +23,15 @@ export default {
 	border: none;
 	transition: all 0.5s ease 0s;
   background-color: var(--red);
-  width: 70px;
+  width: 100px;
   text-align: center;
   padding: 10px;
   color: white;
+  transition: 0.6;
 }
 .app-button:hover {
-  background-color: var(--red);
+  background-color: var(--dark-red);
+  font-weight: 900;
 }
 
 </style>

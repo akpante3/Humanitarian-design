@@ -24,9 +24,13 @@ body {
   margin: 0px;
   font-family: 'Varela Round', sans-serif;
 }
+div {
+  box-sizing: border-box;
+}
 :root {
   --red: #f53123;
-  --ligth-red: #ff746b;
+  --dark-red: #a72f27;
+  --box-shadow: 1px 2px 20px 15px rgba(53, 53, 53, 0.2);
 }
 .app-nav {
   position: absolute;

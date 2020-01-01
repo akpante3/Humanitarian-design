@@ -23,17 +23,28 @@
     <div class="landing-page-section-2">
       <AidSection />
     </div>
+    <div class="landing-page-section-3">
+      <PhoneSection />
+    </div>
+    <div class="landing-page-section-4">
+      <DonationSection />
+    </div>
   </div>
 </template>
 
 <script>
 import AppButton from '@/components/ui/AppButton.vue';
-import AidSection from './AidSection.vue'
+import AidSection from './AidSection.vue';
+import PhoneSection from './PhoneSection';
+import DonationSection from './DonationSection';
+
 export default {
   name: 'LandingPage',
   components: {
     AppButton,
-    AidSection
+    AidSection,
+    PhoneSection,
+    DonationSection
   },
   data() {
     return {};
