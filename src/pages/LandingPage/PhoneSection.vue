@@ -34,6 +34,7 @@ export default {
   height: 550px;
   background-color: #fafafa;
   position: relative;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.3);
   .card-body {
   width: 900px;
   height: 400px;

@@ -38,7 +38,9 @@
           </div>
       </div>
       <div>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minus blanditiis deleniti porro.
+        <div class="donation-section-text">
+          <span>$2</span> ipsum dolor sit amet, consectetur adipisicing elit. Minus <span>blanditiis</span> deleniti porro.
+        </div>
       </div> 
     </div>
   </div>
@@ -62,11 +64,13 @@ export default {
   width: 100%;
   height: 400px;
   background-color: #fafafa;
-  padding-top: 50px;
+  padding-top: 100px;
+  border-bottom: 1px solid rgba(196, 196, 196, 0.3);
   .donation-section-content {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    width: 60%;
+    grid-template-columns: 0.5fr 1.5fr;
+    grid-gap: 2em;
+    width: 70%;
     margin-right: auto;
     margin-left: auto;
     .donation-cards {
@@ -113,21 +117,29 @@ export default {
           border-radius: 50%;
         }
       }
-    .donation-card:hover {
-      width: 95%;
-      height: 70px;
-      opacity: 1;
-      .donation-text {
-        font-size: 16px;
-      }
-      .donate-tag {
+      .donation-card:hover {
+        width: 95%;
+        height: 70px;
         opacity: 1;
-      }
-      img {
-        width: 52px;
-        height: 52px;
+        .donation-text {
+          font-size: 16px;
+        }
+        .donate-tag {
+          opacity: 1;
+        }
+        img {
+          width: 52px;
+          height: 52px;
+        }
       }
     }
+    .donation-section-text {
+      font-size: 22px;
+      margin-top: 70px;
+      span {
+        color: var(--red);
+        font-weight: 600;
+      }
     }
   }
 

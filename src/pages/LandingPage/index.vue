@@ -70,7 +70,7 @@ export default {
   height: 600px;
   overflow: hidden;
   pointer-events: none;
-  animation: landingPageImage 1.5s ease forwards;
+  animation: landingPageImage 2s ease forwards;
 }
 .landing-page-section-1 .landing-page-image img {
   height: 800px;
